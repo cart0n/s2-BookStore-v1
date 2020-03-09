@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="https://kit.fontawesome.com/7ea5d27f59.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="container">
+    <div class="close_panel">
+        <div id="red_circle" class="circle"></div>
+        <div id="yellow_circle" class="circle"></div>
+        <div id="green_circle" class="circle"></div>
+    </div>
+    <div class="logo">
+        <h5 class="fas fa-book"></h5>
+        <h5 class="main_title">MyBookApp</h5>
+    </div>
+    <div class="support">
+        <div class="right_menu">
+            <a href="" id="help">Help Center</a>
+            <p id="point">	• </p>
+            <a href="" id="support">Our Support</a>
+            <div class="account">
+                <img src="carton.png" alt="Your image" id="user_image">
+                <p>cart0n</p>
+                <a href="" class="fas fa-chevron-circle-down"></a>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="container">
+    <aside>
+        <div class="add_btn">
+            <button id="add_btn"><span id="btn_padding">+</span> ADD A BOOK</button>
+        </div>
+        <div class="side_nav">
+            <nav class="side_nav">
+                <a class="side_nav_row" href=""><span class="font_awesome_nav"><span class="fas fa-book"></span></span> Now Reading</a>
+                <a class="side_nav_row" href=""><span class="font_awesome_nav"><span class="fas fa-globe-europe"></span></span> Browse</a>
+                <a class="side_nav_row" href=""><span class="font_awesome_nav"><span class="fas fa-shopping-cart"></span></span>Buy Books</a>
+                <a class="side_nav_row" href=""><span class="font_awesome_nav"><span class="fas fa-star"></span></span>Favourite Books</a>
+                <a class="side_nav_row" href=""><span class="font_awesome_nav"><span class="fas fa-th-list"></span></span>Wishlist</a>
+                <a class="side_nav_row" href=""><span class="font_awesome_nav"><span class="far fa-clock"></span></span>History</a>
+            </nav>
+        </div>
+        <div class="read_list">
+            <ul class="colored_disk">
+                <li id="red_disk" ><a href="" class="read_list_types">Must Read Titles</a> </li>
+                <li id="orange_disk"><a href="" class="read_list_types">Best Of List</a></li>
+                <li id="blue_disk"><a href="" class="read_list_types">Classic Novels</a></li>
+                <li id="violet_disk"><a href="" class="read_list_types">Non Fiction</a></li>
+            </ul>
+        </div>
+        <div class="must_read_titles">
+            <div class="must_read_titles_rows">
+                <p class="clock"><span class="far fa-clock"></span></p>
+                <div>
+                    <p>You added <strong>Fight Club </strong>by <strong>Chuck Palahniuk</strong> to your <strong>Must Read Titles</strong>.</p>
+                    <p>24 minutes ago</p>
+                </div>
+            </div>
+            <div class="must_read_titles_rows">
+                <p class="clock"><span class="far fa-clock"></span></p>
+                <div>
+                    <p>You added <strong>The Trial</strong> by <strong>Franz Kafka</strong> to your <strong>Must Read Titles</strong>.</p>
+                    <p>48 minutes ago</p>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <section class="content">
+        <div class="search_menu">
+            <div class="big_title">
+                <h1>Browse Available Books</h1>
+            </div>
+            <div class="book_choosing">
+                <div class="book_type">
+                    <nav style="width: 100%;">
+                             <a class="book_type_nav" href=""> All Books </a>
+                             <a class="book_type_nav" href=""> Most Resent </a>
+                             <a class="book_type_nav" href=""> Most Popular </a>
+                             <a class="book_type_nav" href=""> Free Books </a>
+                    </nav>
+                </div>
+                <div class="search">
+                    <input class="input" placeholder=" Enter Keywords ">
+                </div>
+            </div>
+        </div>
+        <div class="books_catalog">
+            <div class="book_object">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/41oiF-GVZjL._SX325_BO1,204,203,200_.jpg" alt="Book Poster" class="book_poster">
+                <a href="" class="book_title">The Road to Serfdom</a>
+                <a href="" class="book_author">by Friedrich Hayek</a>
+                <a href="" class="rated_stars"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></a>
+            </div>
+            <div class="book_object">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/61tgs3EvKEL.jpg" alt="Book Poster" class="book_poster">
+                <a href="" class="book_title">Free to Choose: A Personal Statement </a>
+                <a href="" class="book_author">by Milton Friedman and Rose Friedman</a>
+                <a href="" class="rated_stars"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></a>
+            </div> 
+            <div class="book_object">
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/51VOBRkhIgL.jpg" alt="Book Poster" class="book_poster">
+                <a href="" class="book_title">Capitalism and Freedom</a>
+                <a href="" class="book_author">by Milton Friedman</a>
+                <a href="" class="rated_stars"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></a>
+            </div>           
+            <div class="book_object">
+                <img src="https://xenotheka.delbeke.arch.ethz.ch/wp-content/uploads/2019/07/Hayek_Cover1.jpg" alt="Book Poster" class="book_poster">
+                <a href="" class="book_title">The Constitution of Liberty</a>
+                <a href="" class="book_author">by Friedrich Hayek</a>
+                <a href="" class="rated_stars"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></a>
+            </div>
+            <div class="book_object">
+                <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1422118065l/479572.jpg" alt="Book Poster" class="book_poster">
+                <a href="" class="book_title">Anarchy, State, and Utopia</a>
+                <a href="" class="book_author">by Robert Nozick</a>
+                <a href="" class="rated_stars"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></a>
+            </div>
+            <div class="book_object">
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/51naGe9ltDL.jpg" alt="Book Poster" class="book_poster">
+                <a href="" class="book_title">An Inquiry into the Nature and Causes of the Wealth of Nations</a>
+                <a href="" class="book_author">by Adam Smith</a>
+                <a href="" class="rated_stars"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></a>
+            </div>
+            <div class="book_object">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/ManEconomyAndStateVol1.jpg/220px-ManEconomyAndStateVol1.jpg" alt="Book Poster" class="book_poster">
+                <a href="" class="book_title">Man Economy and State</a>
+                <a href="" class="book_author">by Murray Rothbard</a>
+                <a href="" class="rated_stars"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></a>
+            </div>
+            <div class="book_object">
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/511fn4z8h%2BL.jpg" alt="Book Poster" class="book_poster">
+                <a href="" class="book_title">Anatomy of the State</a>
+                <a href="" class="book_author">by Murray Rothbard</a>
+                <a href="" class="rated_stars"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></a>
+            </div> 
+            <div class="book_object">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/51rLlsaXHwL.jpg" alt="Book Poster" class="book_poster">
+                <a href="" class="book_title">For a New Liberty</a>
+                <a href="" class="book_author">by Murray Rothbard</a>
+                <a href="" class="rated_stars"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></a>
+            </div>           
+            <div class="book_object">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/9106b3odPUL.jpg" alt="Book Poster" class="book_poster">
+                <a href="" class="book_title">Conceived in Liberty</a>
+                <a href="" class="book_author">by Murray Rothbard</a>
+                <a href="" class="rated_stars"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></a>
+            </div><br>
+            <div class="book_object">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/7146EWrmCzL.jpg" alt="Book Poster" class="book_poster">
+                <a href="" class="book_title">Law, Legislation and Liberty</a>
+                <a href="" class="book_author">by Friedrich Hayek</a>
+                <a href="" class="rated_stars"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></a>
+            </div>
+            <div class="book_object">
+                <img src="https://i.livelib.ru/boocover/1002089855/o/69f9/Milton_Friedman__A_Monetary_History_of_the_United_States_18671960.jpeg" alt="Book Poster" class="book_poster">
+                <a href="" class="book_title">A Monetary History of the United States</a>
+                <a href="" class="book_author">by Milton Friedman</a>
+                <a href="" class="rated_stars"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></a>
+            </div>
+            <div class="book_object">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/51qLm3qcIDL.jpg" alt="Book Poster" class="book_poster">
+                <a href="" class="book_title">America's Great Depression</a>
+                <a href="" class="book_author">by Murray Rothbard</a>
+                <a href="" class="rated_stars"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></a>           
+            </div> 
+            <div class="book_object">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/312Djl4MmHL._SX302_BO1,204,203,200_.jpg" alt="Book Poster" class="book_poster">
+                <a href="" class="book_title">Libertarianism</a>
+                <a href="" class="book_author">Eric Mack</a>
+                <a href="" class="rated_stars"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></a>
+            </div>           
+        </div>
+    </section>
+    
+</main>
+
+<footer class="container">
+    <a href="" id="question-circle" class="fas fa-question-circle"></a>
+    <a href="" id="options" class="fas fa-cog"></a>
+</footer>
+</body>
+</html> 
